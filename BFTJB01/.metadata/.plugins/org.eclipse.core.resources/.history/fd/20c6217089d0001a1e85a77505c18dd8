@@ -1,0 +1,14 @@
+package com.wells.ui;
+
+import com.wells.service.DateComputationService;
+
+public class DteDemo {
+
+	public static void main(String[] args) {
+	
+		DateComputationService dcs=new DateComputationService();
+		
+		System.out.println(dcs.today());
+	}
+
+}

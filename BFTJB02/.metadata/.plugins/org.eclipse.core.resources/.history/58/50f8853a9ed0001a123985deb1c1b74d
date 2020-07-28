@@ -1,0 +1,11 @@
+package com.wells.service;
+
+public class WelcomeServiceImpl implements WelcomeService {
+
+	@Override
+	public String welcome(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

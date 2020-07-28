@@ -1,0 +1,22 @@
+package com.wells.ui;
+
+import java.time.Period;
+
+import com.wells.service.DateComputationService;
+
+public class DteDemo {
+
+	public static void main(String[] args) {
+	
+		DateComputationService dcs=new DateComputationService();
+		
+		System.out.println(dcs.today());
+		
+		Period p = dcs.independentPeriod();
+		
+		System.out.println(p);
+		System.out.println(p.toTotalMonths());
+		System.out.println(p.getYears());
+	}
+
+}

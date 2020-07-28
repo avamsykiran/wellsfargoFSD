@@ -1,0 +1,45 @@
+Hi Vamsy,
+
+Further to the earlier discussion, 
+please find the below program details and delivery plan for Wells Fargo – S1 program.
+
+Program Overview 
+--------------------------
+Client	                Wells Fargo	
+Technology	            Full Stack -Java
+Training Model	        Blended (Self-Paced 35% + VILT 65%)
+Start Date	            20/07/2020	
+End Date	            31/10/2020
+Batch Count	            4
+Participants count	    100
+Batch strength          25
+
+Batch Details
+-------------------------------
+S#	Batch	Mentor Assigned	    Client POC/Mentor	    PM Team
+1	Batch-1	Vamsy Kiran	        Birendra (Program SPOC)	Shefali, Athul, Sameer
+2	Batch-2		                Puja Sriramka	
+3	Batch-3		                Ankita Kanwar	
+4	Batch-4	Navin Gupta	        Karthik S	
+
+Training Details
+-----------------------------------
+Batch	Batch ID	Batch Time	            Meeting Number	Password	Trainer
+----------------------------------------------------------------------------------
+
+Batch-1	BFTJB01	    09:00 AM to 11:00 AM	166 501 7041	4pfMwgeHP74	Vamsy
+https://iiht.webex.com/iiht/j.php?MTID=ma03400abda606ea864838373b6660be2
+
+Batch-2	BFTJB02	    11:15 AM to 01:15 PM	166 707 2083	9HbgpXmRG36	
+https://iiht.webex.com/iiht/j.php?MTID=m1c4ebb48419214151e4680ba11ab4678
+
+Batch-3	BFTJB03	    02:00 PM to 04:00 PM	166 071 0550	hnNVTjYd895	
+https://iiht.webex.com/iiht/j.php?MTID=m254f2c4f00e77d62685673d6801a24be
+
+Batch-4	BFTJB04	    04:00 PM to 06:00 PM	166 970 4438	WjD44YsPw22	Navin
+https://iiht.webex.com/iiht/j.php?MTID=m6d8c6413f29d2466f25fae2aa39ef413
+
+Please let us know if you need any further details.
+
+Regards,
+Shefali

@@ -1,0 +1,25 @@
+package com.wells.ui;
+
+import com.wells.service.SomeService;
+import com.wells.service.SomeService2;
+import com.wells.service.SomeServiceImpl;
+
+public class FunctionalInterfaceDemo {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * SomeService ser1 = new SomeServiceImpl();
+		 * 
+		 * SomeService ser2 = new SomeService() {
+		 * 
+		 * @Override public String method2() { return null; }
+		 * 
+		 * @Override public String method1() { return null; } };
+		 */
+		
+		SomeService2 ser2Obj = () -> "Hello Everyone";
+		System.out.println(ser2Obj.method1());
+	}
+
+}
