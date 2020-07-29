@@ -1,13 +1,13 @@
 
+j	java:S106""9Replace this use of System.out or System.err by a logger.(Œ€ÿ8¹ß–¢¹.HBRMAJORZ
+CODE_SMELL
+o	java:S106$"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8¹ß–¢¹.HCRMAJORZ
+CODE_SMELL
 j
-java:S3878"8Remove this array creation and simply pass the elements.( ÷¸¼8€ú¢¹.H1RMINORZ
-CODE_SMELL
-j	java:S106&"9Replace this use of System.out or System.err by a logger.(Œ€ÿ8¹ß–¢¹.H8RMAJORZ
-CODE_SMELL
-o	java:S106$"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8¹ß–¢¹.H7RMAJORZ
+java:S3878"8Remove this array creation and simply pass the elements.( ÷¸¼8€ú¢¹.HDRMINORZ
 CODE_SMELL
 b
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8€ú¢¹.H/RMINORZ
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8€ú¢¹.HERMINORZ
 CODE_SMELL
-j	java:S106""9Replace this use of System.out or System.err by a logger.(Œ€ÿ8¹ß–¢¹.H6RMAJORZ
+j	java:S106&"9Replace this use of System.out or System.err by a logger.(Œ€ÿ8¹ß–¢¹.HFRMAJORZ
 CODE_SMELL

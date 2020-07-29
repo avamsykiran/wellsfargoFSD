@@ -1,8 +1,6 @@
 
 Z
 *src/com/wells/service/GreetingService.java,7\c\7cbf642b19a959eed29250fbfcd3cbcd2a821433
-S
-#src/com/wells/service/Greeting.java,c\7\c79ea2873b71406296231646305d2dc8da592010
 e
 5src/com/wells/service/GreetingServiceEnglishImpl.java,b\e\bef7d9699b0d08fdf0a251b3a6c9f295f5ee5c12
 c
@@ -23,3 +21,5 @@ Q
 !src/com/wells/model/Employee.java,9\9\990178123122ee1c91a3dd8b97c77f2a2e64e2ce
 X
 (src/com/wells/ui/EmployeeSortingApp.java,8\4\84d34ede86c0febb990b1a74f079549de6fa010a
+P
+ src/com/wells/ui/StreamDemo.java,1\4\1403c591912504dd9ad9d0014e0058522ef291e9
