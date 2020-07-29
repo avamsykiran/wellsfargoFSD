@@ -21,3 +21,7 @@ W
 'src/com/wells/service/SomeService2.java,2\a\2a04cd034075ef29e7b4129c0eab50388397f014
 ]
 -src/com/wells/ui/FunctionalInterfaceDemo.java,2\3\23c3da50a60b7af339958c9f201bc388a8f9a146
+M
+src/com/wells/model/Item.java,1\d\1db077629a07f99ec7291e5719f55209d966772c
+P
+ src/com/wells/ui/StreamDemo.java,1\4\1403c591912504dd9ad9d0014e0058522ef291e9

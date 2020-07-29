@@ -1,13 +1,13 @@
 
 h
-java:S1611"1Remove the parentheses around the "unm" parameter(–¿°úÿÿÿÿ8Ò¬ô¹.HaRMINORZ
-CODE_SMELL
-j	java:S106"9Replace this use of System.out or System.err by a logger.(û¸‡Ê8Ë°Ï¹.HWRMAJORZ
-CODE_SMELL
-j	java:S106""9Replace this use of System.out or System.err by a logger.(ïŞÌ8ÖÆê¹.HYRMAJORZ
-CODE_SMELL
-m	java:S125"<This block of commented-out lines of code should be removed.(áêéá8Ë°Ï¹.HXRMAJORZ
+java:S1611"1Remove the parentheses around the "unm" parameter(–¿°úÿÿÿÿ8Ò¬ô¹.HlRMINORZ
 CODE_SMELL
 h
-java:S1611"1Remove the parentheses around the "unm" parameter(¬˜Æõøÿÿÿÿ8Ò¬ô¹.H`RMINORZ
+java:S1611"1Remove the parentheses around the "unm" parameter(¬˜Æõøÿÿÿÿ8Ò¬ô¹.HmRMINORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(áêéá8Ë°Ï¹.HnRMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(û¸‡Ê8Ë°Ï¹.HoRMAJORZ
+CODE_SMELL
+j	java:S106""9Replace this use of System.out or System.err by a logger.(ïŞÌ8ÖÆê¹.HpRMAJORZ
 CODE_SMELL
