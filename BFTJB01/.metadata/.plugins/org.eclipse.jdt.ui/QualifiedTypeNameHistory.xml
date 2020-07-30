@@ -15,7 +15,6 @@
 <fullyQualifiedTypeName name="com.wells.service.SomeService"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.wells.model.Item"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -23,4 +22,12 @@
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="com.wells.service.NumberGeneratorService"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="com.wells.service.ReservationService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.wells.service.PrinterService"/>
+<fullyQualifiedTypeName name="com.wells.service.ProducerThread"/>
+<fullyQualifiedTypeName name="com.wells.service.ConsumerThread"/>
 </qualifiedTypeNameHistroy>

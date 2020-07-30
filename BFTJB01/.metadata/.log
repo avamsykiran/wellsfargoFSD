@@ -8153,3 +8153,15 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-30 10:31:27.368
 !MESSAGE executing callback sts4.classpath.pGBMbXSR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-30 11:13:24.909
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pGBMbXSR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-30 11:13:24.939
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pGBMbXSR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-30 11:13:24.955
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-30 11:13:24.970
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pGBMbXSR => OK
