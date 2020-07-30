@@ -12,8 +12,6 @@
 <fullyQualifiedTypeName name="com.wells.service.WelcomeService"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.wells.model.Employee"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -21,4 +19,11 @@
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.wells.model.Flight"/>
+<fullyQualifiedTypeName name="com.wells.service.ReservationService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.wells.service.JobHandlingService"/>
+<fullyQualifiedTypeName name="com.wells.service.ProducerThread"/>
 </qualifiedTypeNameHistroy>

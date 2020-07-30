@@ -24,7 +24,7 @@ public class ThreadDemo2 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+				
 		System.out.println("Program Terminated!");
 	}
 

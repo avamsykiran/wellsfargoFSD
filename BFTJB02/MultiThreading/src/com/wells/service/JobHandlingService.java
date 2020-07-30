@@ -19,13 +19,13 @@ public class JobHandlingService {
 		for (int i = 1; i <= jobCount; i++) {
 			synchronized (this) {
 				while (jobsList.size() == capacity) {
-					wait();
+					this.wait();
 				}
 				
 				jobsList.add(i);
 				System.out.println("Produce a job#"+i);
 				
-				notify();
+				this.notify();
 				
 				Thread.sleep(1000);
 			}
