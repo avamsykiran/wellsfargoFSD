@@ -8,10 +8,10 @@ import com.wellsfargo.fsd.ims.exception.ImsException;
 public interface ItemDao {
 
 	Item add(Item item) throws ImsException;
-	Item save(Item item);
-	boolean deleteById(Integer icode);
+	Item save(Item item) throws ImsException;
+	boolean deleteById(Integer icode) throws ImsException;
 	
-	Item getById(Integer icode);
-	List<Item> getAll();
+	Item getById(Integer icode) throws ImsException;
+	List<Item> getAll() throws ImsException;
 	
 }
