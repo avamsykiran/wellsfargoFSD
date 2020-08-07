@@ -3,7 +3,9 @@ package com.wellsfargo.fsd.lms.dao;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.wellsfargo.fsd.lms.entity.Loan;
@@ -79,13 +81,62 @@ public class LoanDaoJdbcImpl implements LoanDao {
 	}
 
 	public List<Loan> getAll() throws LoanException {
-		// TODO Auto-generated method stub
-		return null;
+		List<Loan> loans = new ArrayList<>();
+		
+		try (Connection con = ConnectionFactory.getConnection();
+				PreparedStatement pst = con.prepareStatement(GET_ALL_LNS_QRY);) {		
+
+			ResultSet rs = pst.executeQuery();
+			
+			while(rs.next()) {
+				Loan loan = new Loan();
+				loan.setLoanId(rs.getInt(1));
+				loan.setPrincipal(rs.getDouble(2));
+				loan.setRateOfInterest(rs.getDouble(3));
+				loan.setEmiCount(rs.getInt(4));
+				Date d = rs.getDate(5);
+				loan.setDateOfDisbursment(d==null?null:d.toLocalDate());
+				loan.setStatus(rs.getString(6));
+				
+				loans.add(loan);
+			}
+			
+			if(loans.isEmpty()) {
+				loans=null;
+			}
+		} catch (SQLException exp) {
+			throw new LoanException("An error occured, Could not retrive the loan details!");
+		}
+				
+		return loans;
 	}
 
 	public Loan getById(int loanId) throws LoanException {
-		// TODO Auto-generated method stub
-		return null;
+		Loan loan=null;
+		
+		try (Connection con = ConnectionFactory.getConnection();
+				PreparedStatement pst = con.prepareStatement(GET_BY_ID_LN_QRY);) {		
+
+			pst.setInt(1, loanId);
+			
+			ResultSet rs = pst.executeQuery();
+			
+			if(rs.next()) {
+				loan = new Loan();
+				loan.setLoanId(rs.getInt(1));
+				loan.setPrincipal(rs.getDouble(2));
+				loan.setRateOfInterest(rs.getDouble(3));
+				loan.setEmiCount(rs.getInt(4));
+				Date d = rs.getDate(5);
+				loan.setDateOfDisbursment(d==null?null:d.toLocalDate());
+				loan.setStatus(rs.getString(6));
+			}
+			
+		} catch (SQLException exp) {
+			throw new LoanException("An error occured, Could not retrive the loan details!");
+		}
+		
+		return loan;
 	}
 
 }
