@@ -17,7 +17,6 @@
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.wells.model.Item"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="com.wells.service.NumberGeneratorService"/>
@@ -30,10 +29,18 @@
 <fullyQualifiedTypeName name="com.wells.service.ProducerThread"/>
 <fullyQualifiedTypeName name="com.wells.service.ConsumerThread"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ConnectionFactory"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.exception.ImsException"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ItemDao"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ItemDaoJdbcImpl"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.exception.ImsException"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.service.ItemService"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.service.ItemServiceImpl"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.OrientationRequested"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.entity.Item"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>
