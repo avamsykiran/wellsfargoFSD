@@ -15,7 +15,6 @@
 <fullyQualifiedTypeName name="com.wells.service.SomeService"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.wells.model.Item"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
@@ -35,12 +34,25 @@
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ItemDao"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ItemDaoJdbcImpl"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.exception.ImsException"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.service.ItemService"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.service.ItemServiceImpl"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.OrientationRequested"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.entity.Item"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.td.testing.NumericOperationsTest"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.td.service.NumericOperations"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.provider.ValueSource"/>
+<fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
