@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="com.wells.service.WelcomeService"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.wells.model.Employee"/>
 <fullyQualifiedTypeName name="java.time.Month"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -30,12 +29,26 @@
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.dao.ContactDao"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.dao.ContactDaoJdbcImpl"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.exception.ContactException"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactService"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactServiceImpl"/>
 <fullyQualifiedTypeName name="java.nio.channels.SeekableByteChannel"/>
 <fullyQualifiedTypeName name="java.lang.LinkageError"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.td.service.NumericOperations"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.provider.ValueSource"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.provider.MethodSource"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.params.provider.Arguments"/>
 </qualifiedTypeNameHistroy>
