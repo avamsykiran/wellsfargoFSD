@@ -51,4 +51,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.MethodSource"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.Arguments"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 </qualifiedTypeNameHistroy>
