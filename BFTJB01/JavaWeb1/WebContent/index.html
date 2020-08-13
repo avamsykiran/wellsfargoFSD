@@ -1,8 +1,31 @@
 <html>
-	<head>
-		<title>My First Java Web</title>
-	</head>
-	<body>
-		<h2>My First Java Web</h2>
-	</body>
+<head>
+<title>My First Java Web</title>
+</head>
+<body>
+	<h2>My First Java Web</h2>
+	
+	<a href="TestPage.jsp">Jsp Page</a>
+
+	<form action="ws2">
+		<label>Enter User Name: <input type="text" name="unm" />
+		</label>
+		<button>OK</button>
+	</form>
+
+	<form action="arth" method="POST">
+		<label>Operand1: 
+			<input type="number" name="n1" required />
+		</label> 
+		<label>Operand2: 
+			<input type="number" name="n2" required />
+		</label>
+		<button name="operation" value="sum">ADD</button>
+		<button name="operation" value="dif">SUBSTRACT</button>
+		<button name="operation" value="prd">MULTIPLY</button>
+		<button name="operation" value="qut">DIVIDE</button>
+		<button name="operation" value="rem">MODULO</button>
+		
+	</form>
+</body>
 </html>
