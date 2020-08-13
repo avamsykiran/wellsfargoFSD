@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="com.wells.service.GreetingService"/>
 <fullyQualifiedTypeName name="com.wells.service.GreetingServiceEnglishImpl"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-<fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="java.util.Base64.Encoder"/>
 <fullyQualifiedTypeName name="java.util.Base64"/>
 <fullyQualifiedTypeName name="java.util.Base64.Decoder"/>
@@ -34,7 +33,6 @@
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactServiceImpl"/>
 <fullyQualifiedTypeName name="java.nio.channels.SeekableByteChannel"/>
 <fullyQualifiedTypeName name="java.lang.LinkageError"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.td.service.NumericOperations"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
@@ -53,4 +51,10 @@
 <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.Arguments"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="java.time.Period"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.model.VisitorModel"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.controller.VisitorServlet"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.service.VisiorService"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 </qualifiedTypeNameHistroy>
