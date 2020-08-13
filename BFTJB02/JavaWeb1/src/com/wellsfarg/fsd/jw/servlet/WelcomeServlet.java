@@ -29,5 +29,9 @@ public class WelcomeServlet extends HttpServlet{
 		out.println("<body><h1>Hello! <strong>"+username+"</strong></h1></body>");
 		out.println("</html>");
 	}
-	
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		doGet(req, resp);
+	}	
 }
