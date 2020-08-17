@@ -8,10 +8,14 @@
 <title>Home Page</title>
 </head>
 <body>
-	<h3><%=LocalDateTime.now() %></h3>
-	<h1>Mvc Demo Application</h1>
-	<nav>
-		<a href="visitorPage.jsp"> Visitor Page</a>
-	</nav>
+	<jsp:include page="header.jsp" />
+	
+	<form action="ServletA">
+		<label>Message
+			<input type="text" name="m1" />
+		</label>
+		<button name="action" value="f">FORWARD</button>
+		<button name="action" value="r">REDIRECT</button>
+	</form>
 </body>
 </html>
