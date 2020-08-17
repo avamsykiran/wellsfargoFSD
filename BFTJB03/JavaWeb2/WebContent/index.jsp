@@ -8,11 +8,16 @@
 <title>Home Page</title>
 </head>
 <body>
-	<h3><%=LocalDate.now() %></h3>
-	<h1>My MVC WEb Application</h1>
+	<jsp:include page="banner.jsp" />
 	
-	<nav>
-		<a href="empPage.jsp">Emp Page</a>
-	</nav>
+	
+	<form action="ServletA">
+		<label>Message
+			<input type="text" name="m1" />
+		</label>
+		
+		<button name="btn" value="f">Forward</button>
+		<button name="btn" value="r">Redirect</button>
+	</form>
 </body>
 </html>

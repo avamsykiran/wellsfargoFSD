@@ -45,7 +45,6 @@
 <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.MethodSource"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.Arguments"/>
@@ -57,4 +56,6 @@
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.controller.VisitorServlet"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.service.VisiorService"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>
