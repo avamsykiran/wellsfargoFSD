@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,12 +10,24 @@
 <title>Visitor Input</title>
 </head>
 <body>
-
-	<% String msg =(String) request.getAttribute("msg"); %>
+	<jsp:include page="header.jsp" />
+	
+	<%-- <% String msg =(String) request.getAttribute("msg"); %>
 	<% if(msg!=null) {%>
 		<h2><%=msg %></h2>
 	<%} %>
-
+ --%>
+ 
+ 	<c:choose>
+ 		<c:when test="${msg != null }">
+ 			<h2>${msg }</h2>
+ 		</c:when>
+ 		<c:otherwise>
+ 			<h2>Welcome! Somebody!</h2>
+ 		</c:otherwise>
+ 	</c:choose>
+ 	
+ 	
 	<form action="visitor">
 		<label>Title
 			<select name="title" required>

@@ -8,11 +8,6 @@
 <title>Home Page</title>
 </head>
 <body>
-	<h3><%=LocalDateTime.now() %></h3>
-	<h1>A simple MVC demo</h1>
-	
-	<nav>
-		<a href="visitorInput.jsp">Visitor</a>
-	</nav>
+	<jsp:include page="header.jsp" />
 </body>
 </html>
