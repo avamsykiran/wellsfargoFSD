@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.wells.service.GreetingService"/>
-<fullyQualifiedTypeName name="com.wells.service.GreetingServiceEnglishImpl"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="java.util.Base64.Encoder"/>
 <fullyQualifiedTypeName name="java.util.Base64"/>
@@ -9,7 +7,6 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.wells.service.WelcomeServiceImpl"/>
 <fullyQualifiedTypeName name="com.wells.service.WelcomeService"/>
-<fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="com.wells.model.Employee"/>
 <fullyQualifiedTypeName name="java.time.Month"/>
@@ -29,8 +26,6 @@
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.dao.ContactDao"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.dao.ContactDaoJdbcImpl"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.exception.ContactException"/>
-<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactService"/>
-<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactServiceImpl"/>
 <fullyQualifiedTypeName name="java.nio.channels.SeekableByteChannel"/>
 <fullyQualifiedTypeName name="java.lang.LinkageError"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
@@ -52,10 +47,17 @@
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.model.VisitorModel"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.controller.VisitorServlet"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.service.VisiorService"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.time.LocalTime"/>
+<fullyQualifiedTypeName name="java.time.Duration"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactService"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.entity.Contact"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>

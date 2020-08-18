@@ -2393,3 +2393,15 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-18 12:47:25.773
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-18 12:51:47.308
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEoaEEIH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-18 12:51:47.324
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QEoaEEIH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-18 12:51:47.336
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-18 12:51:47.351
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEoaEEIH => OK
