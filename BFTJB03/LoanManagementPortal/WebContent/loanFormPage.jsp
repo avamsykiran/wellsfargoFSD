@@ -38,7 +38,7 @@
 			<select name="status" required>
 				<option value="">--SELECT--</option>
 				<c:forEach items="${['APPROVED','CLOSED','PENDING','REJECTED']}" var="opt">
-					<option value="${opt }" ${opt.equals(loan.status?'selected':'') } >${opt }</option>
+					<option value="${opt }" ${opt.equals(loan.status.trim())?'selected':'') } >${opt }</option>
 				</c:forEach>				
 			</select>
 		</div>	
