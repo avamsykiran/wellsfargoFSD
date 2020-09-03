@@ -5,6 +5,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
 import com.wellsfargo.jpahd.entity.Employee;
@@ -18,7 +19,7 @@ public class EmployeeApp3JPQL {
 
 		String qryText = "SELECT e FROM Employee e"; // JPQL
 
-		// Query empQry = em.createQuery(qryText);
+		//Query empQry = em.createQuery(qryText);
 
 		TypedQuery<Employee> empQry = em.createQuery(qryText, Employee.class);
 
@@ -29,6 +30,26 @@ public class EmployeeApp3JPQL {
 					+ emp.getJoinDate() + "\t" + emp.getBasic());
 		}
 
+		System.out.println("---------------------------------------------------");
+		
+		Query empNamesQry = em.createQuery("SELECt e.firstName FROm Employee e");
+		
+		List<String> eNames = empNamesQry.getResultList();
+		
+		for(String n:eNames) {
+			System.out.println(n);
+		}
+		
+		System.out.println("---------------------------------------------------");
+		
+		Query empNamesAndBasicsQry = em.createQuery("SELECt e.firstName,e.basic FROm Employee e");
+		
+		List<Object[]> eNamesAndBasics = empNamesAndBasicsQry.getResultList();
+		
+		for(Object[] row :eNamesAndBasics) {
+			System.out.println(row[0] + "\t" +row[1]);
+		}
+		
 		System.out.println("---------------------------------------------------");
 
 		TypedQuery<Employee> empQry2 = em.createQuery("SELECT e FROM Employee e WHERE e.basic between 10000 and 55000",
