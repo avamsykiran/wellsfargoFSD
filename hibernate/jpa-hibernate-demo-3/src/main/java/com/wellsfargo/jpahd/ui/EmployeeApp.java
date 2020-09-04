@@ -57,7 +57,7 @@ public class EmployeeApp {
 		em.persist(d1);
 		em.persist(d2);
 		txn.commit();
-		System.out.println("Employee is saved!");
+		System.out.println("Data is saved!");
 		
 		em.close();
 	}

@@ -14,18 +14,13 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
 @Entity
-/*
-@Table(name="ALL_EMPS")
+/*@Table(name="ALL_EMPS")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "etype",discriminatorType = DiscriminatorType.CHAR)
-@DiscriminatorValue("E")
-*/
+@DiscriminatorValue("E")*/
 
-/*
- * @Table(name="emps_main")
- * 
- * @Inheritance(strategy = InheritanceType.JOINED)
- */
+/*@Table(name="emps_main")
+@Inheritance(strategy = InheritanceType.JOINED)*/
 
 @Table(name="emps_only")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
