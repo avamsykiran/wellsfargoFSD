@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="wsb" class="com.wellsfargo.fsd.scdx.service.WelcomeServiceStandardImpl"/>
+	
+<!-- 	<bean id="wsab1" class="com.wellsfargo.fsd.scdx.service.WelcomeServiceAdvancedImpl">
+		<property name="welcomeMessage" value="Namsathey! Pleae come!" />
+	</bean> -->
+	
+	<bean id="wsab1" class="com.wellsfargo.fsd.scdx.service.WelcomeServiceAdvancedImpl">
+		<constructor-arg index="0" value="Vanakkam Thammi! Saukhyamaa! "/>
+	</bean>
+	
+	<bean id="mp" class="com.wellsfargo.fsd.scdx.service.MessageProviderImpl" />
+	
+	<bean id="wseb" class="com.wellsfargo.fsd.scdx.service.WelcomeServiceEnhancedImpl">
+		<!-- <constructor-arg index="0" ref="mp"/> -->
+		<property name="msgProvider" ref="mp"/>
+	</bean>
+	
+</beans>

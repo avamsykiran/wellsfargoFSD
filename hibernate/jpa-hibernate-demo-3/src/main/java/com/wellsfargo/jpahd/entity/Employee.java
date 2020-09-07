@@ -17,7 +17,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="emps4") 
+@Table(name="emps") 
 public class Employee implements Serializable,Comparable<Employee>{
 
 	@Id

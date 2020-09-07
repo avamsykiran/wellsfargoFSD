@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="sun.misc.BASE64Encoder"/>
-<fullyQualifiedTypeName name="java.util.Base64"/>
-<fullyQualifiedTypeName name="java.util.Base64.Encoder"/>
-<fullyQualifiedTypeName name="java.util.Base64.Decoder"/>
-<fullyQualifiedTypeName name="com.wells.service.SomeServiceImpl"/>
-<fullyQualifiedTypeName name="com.wells.service.SomeService"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="com.wells.model.Item"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
@@ -44,7 +37,6 @@
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-<fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.model.VisitorModel"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.service.VisitorService"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
@@ -60,4 +52,12 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.entity.Item"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.scdx.service.WelcomeService"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.scdx.service.WelcomeServiceStandardImpl"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.scdx.service.WelcomeServiceAdvancedImpl"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.scdx.service.MessageProvider"/>
+<fullyQualifiedTypeName name="java.time.LocalTime"/>
 </qualifiedTypeNameHistroy>
