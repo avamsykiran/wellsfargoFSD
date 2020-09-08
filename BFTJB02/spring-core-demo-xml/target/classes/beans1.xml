@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="gsb" class="com.wellsfargo.scd.service.GreetServiceImpl" />
+	
+	<bean id="gsab" class="com.wellsfargo.scd.service.GreetServiceAdvancedImpl">
+		<!-- <constructor-arg index="0" value="Namasthey!"/> -->
+		<property name="greeting" value="Hai!"/>
+	</bean>
+	
+	<bean id="gpb" class="com.wellsfargo.scd.util.GreetingProvider" />
+	
+	<bean id="gseb" class="com.wellsfargo.scd.service.GreetServiceEnhancedImpl">
+		<!-- <constructor-arg index="0" ref="gpb"/> -->
+		<property name="greetingProvider" ref="gpb"/>
+	</bean>
+	
+</beans>

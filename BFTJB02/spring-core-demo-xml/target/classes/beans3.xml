@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+
+	<bean id="greetingProvider" class="com.wellsfargo.scd.util.GreetingProvider" />
+	
+	<bean id="gseb" class="com.wellsfargo.scd.service.GreetServiceEnhancedImpl"
+		autowire="byName"	/>
+	
+	<!-- <bean id="gpb" class="com.wellsfargo.scd.util.GreetingProvider" />
+	
+	<bean id="gseb" class="com.wellsfargo.scd.service.GreetServiceEnhancedImpl"
+		autowire="byType"	/> -->
+	
+</beans>

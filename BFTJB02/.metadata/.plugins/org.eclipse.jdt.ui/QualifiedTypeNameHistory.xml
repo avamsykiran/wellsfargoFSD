@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-<fullyQualifiedTypeName name="java.util.Base64.Encoder"/>
-<fullyQualifiedTypeName name="java.util.Base64"/>
-<fullyQualifiedTypeName name="java.util.Base64.Decoder"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.wells.service.WelcomeServiceImpl"/>
 <fullyQualifiedTypeName name="com.wells.service.WelcomeService"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
@@ -51,7 +46,6 @@
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.jw2.service.VisiorService"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-<fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.time.Duration"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
 <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.entity.Contact"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.wellsfargo.scd.service.GreetServiceImpl"/>
+<fullyQualifiedTypeName name="java.time.LocalTime"/>
+<fullyQualifiedTypeName name="com.wellsfargo.scd.util.GreetingProvider"/>
+<fullyQualifiedTypeName name="com.wellsfargo.scd.service.GreetServiceAdvancedImpl"/>
 </qualifiedTypeNameHistroy>
