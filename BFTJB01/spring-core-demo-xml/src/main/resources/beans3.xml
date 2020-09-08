@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id="mp" class="com.wellsfargo.fsd.scdx.service.MessageProviderImpl" />
+	
+	<bean 	id="wseb" 
+			class="com.wellsfargo.fsd.scdx.service.WelcomeServiceEnhancedImpl"
+			autowire="byType"
+			 />
+	 -->
+	 
+	<bean id="msgProvider" class="com.wellsfargo.fsd.scdx.service.MessageProviderImpl" />
+	
+	<bean 	id="wseb" 
+			class="com.wellsfargo.fsd.scdx.service.WelcomeServiceEnhancedImpl"
+			autowire="byName"
+			 />
+		
+</beans>
