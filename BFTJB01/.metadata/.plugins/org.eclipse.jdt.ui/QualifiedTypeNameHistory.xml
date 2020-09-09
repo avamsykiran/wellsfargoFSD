@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.wells.service.PrinterService"/>
-<fullyQualifiedTypeName name="com.wells.service.ProducerThread"/>
-<fullyQualifiedTypeName name="com.wells.service.ConsumerThread"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ConnectionFactory"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ItemDao"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.dao.ItemDaoJdbcImpl"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.ims.exception.ImsException"/>
@@ -49,8 +42,6 @@
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.scdx.service.MessageProvider"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.scdx.service.WelcomeServiceAdvancedImpl"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
@@ -60,4 +51,13 @@
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+<fullyQualifiedTypeName name="com.wellsfargo.swmd.SpringWebMvcDemoConfig"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>
