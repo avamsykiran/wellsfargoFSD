@@ -1,0 +1,24 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color: #acfccc;
+	padding:10px;
+}
+
+header{
+	background-color: #aaaaaa;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	padding:10px;	
+}
+
+header h3{
+	text-align:right;
+}
+
+header h1 {
+	text-align:center;
+}
