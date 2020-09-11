@@ -22,3 +22,21 @@ header h3{
 header h1 {
 	text-align:center;
 }
+
+section{
+	background-color:#ffffff;
+	padding:15px;
+	min-height:250px;
+}
+
+nav{
+	background-color: #cacaca;
+	padding:10px;		
+}
+
+nav a {
+	text-decoration:none;
+	display:inline-block;
+	margin-right:2px;
+	padding:5px;
+}

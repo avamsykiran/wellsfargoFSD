@@ -1,0 +1,45 @@
+*{
+	margin:0px;
+}
+body{
+	margin:0px;
+	padding:10px;
+	background-color: #cacaca;	
+}
+
+header{
+	background-color: #0a0a0a;
+	color:#ffffff;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	padding:10px;
+}
+
+header h3{
+	text-align: right;		
+}
+
+header h2{
+	text-align: center;	
+}
+
+section{
+	background-color: #ffffff;
+	min-height: 100px;	
+	padding:10px;
+}
+
+nav{
+	background-color: #4c4c4c;
+	color:#ffffff;
+	padding:10px;	
+}
+
+nav a{
+	background-color: #0c0c0c;
+	color:#ffffff;
+	text-decoration:none;
+	display:inline-block;
+	margin-right:5px;
+	padding:4px;
+}
