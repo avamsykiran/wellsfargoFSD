@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
     
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
-    
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,42 +11,48 @@
 </head>
 <body>
 
-	<jsp:include page="header" />
+	<jsp:include page="/header" />
 	
-	<h3>${item.icode==null?"New Item":"Edit Item" }</h3>
+	<h3>${isNew?"New Item":"Edit Item" }</h3>
 	
-	<form action='${item.icode==null?"addItem":"saveItem" }' method="POST">
+	<form:form action='${isNew?"addItem":"saveItem" }' method="POST" modelAttribute="item">
 		<div>
-			<label>Icode: </label>
-			<input type="number" value="${item.icode }" name="icode" required 
-			 ${item.icode==null?"":"readonly" } />
+			<form:label path="icode">Icode: </form:label>
+			<form:input type="number" path="icode" readonly="${!isNew}"/>
+			<form:errors path="icode"/>
 		</div>
 		<div>
-			<label>Title: </label>
-			<input type="text" value="${item.title }" name="title" minlength="3" maxlength="20" required />
+			<form:label path="title">Title: </form:label>
+			<form:input type="text" path="title" />
+			<form:errors path="title"/>
 		</div>
 		<div>
-			<label>Unit: </label>
-			<input type="text" value="${item.unit }" name="unit" required />
+			<form:label path="unit">Unit: </form:label>
+			<form:select path="unit" items="${units }"/> 
+			<%-- <form:radiobuttons path="unit" items="${units }"/> --%>
+			<form:errors path="unit"/>
 		</div>
 		<div>
-			<label>Package Date: </label>
-			<input type="date" value="${item.packageDate }" name="packageDate" required />
+			<form:label path="packageDate">Package Date: </form:label>
+			<form:input type="date" path="packageDate" />
+			<form:errors path="packageDate"/>			
 		</div>
 		<div>
-			<label>Cost Price: </label>
-			<input type="decimal" value="${item.costPrice }" name="costPrice" required />
+			<form:label path="costPrice">Cost Price: </form:label>
+			<form:input type="decimal" path="costPrice" />
+			<form:errors path="costPrice"/>			
 		</div>
 		<div>
-			<label>Selling Price: </label>
-			<input type="decimal" value="${item.sellingPrice }" name="sellingPrice" required />
+			<form:label path="sellingPrice">Selling Price: </form:label>
+			<form:input type="decimal" path="sellingPrice" />
+			<form:errors path="sellingPrice"/>		
 		</div>
 		<div>
-			<label>Fragile: 
-				<input type="checkbox" value="${item.fragile }" name="fragile" />
-			</label>
+			<form:label path="fragile">Fragile</form:label>
+			<form:checkbox path="fragile" />
+			<form:errors path="fragile"/>
 		</div>
 		<button>SAVE</button>		
-	</form>
+	</form:form>
 </body>
 </html>

@@ -716,3 +716,345 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-09-15 08:57:39.230
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 2 2 2020-09-15 09:09:41.479
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:14.584
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:14.587
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6b4376e1[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:14.611
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:14.804
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:37.796
+!MESSAGE Boot LS startup time from start to initialized: 23134ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.436
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fGdpUlRPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.451
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.464
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.483
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.505
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.512
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.518
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.522
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fGdpUlRP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.642
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.716
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP inventory-management-spring-application false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.723
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.741
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.760
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP InventoryManagementPortal false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.768
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.780
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.808
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP Java8Features false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.815
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.830
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.858
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP JavaWeb1 false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.865
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.888
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.908
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP JavaWeb2MVCDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.912
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.939
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.958
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP MultiThreading false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.962
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:38.992
+!MESSAGE classpath=25 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.009
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP inventory-management-system false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.016
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.025
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.068
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP spring-core-demo-annot false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.072
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.088
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.101
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP spring-core-demo-xml false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.107
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.184
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.241
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP spring-web-mvc-boot-demo false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.250
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.322
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.370
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP spring-web-mvc-boot-demo2 false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.377
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.393
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.409
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP spring-web-mvc-demo1 false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.435
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.457
+!MESSAGE classpath=37 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.482
+!MESSAGE buffering callback sts4.classpath.fGdpUlRP testing-demo false 37
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:39.490
+!MESSAGE executing callback sts4.classpath.fGdpUlRP 13 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:10:40.026
+!MESSAGE executing callback sts4.classpath.fGdpUlRP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:35.420
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fGdpUlRP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:35.430
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fGdpUlRP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:35.435
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:35.445
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fGdpUlRP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:45.793
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:45.795
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6b4376e1[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:45.804
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.717
+!MESSAGE Boot LS startup time from start to initialized: 11897ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.819
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YyCKOVnEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.833
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.837
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.847
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.855
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.863
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.869
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.882
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YyCKOVnE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:57.958
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.026
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE inventory-management-spring-application false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.036
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.048
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.060
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE InventoryManagementPortal false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.064
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.071
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.085
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE Java8Features false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.094
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.113
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.127
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE JavaWeb1 false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.135
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.158
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.171
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE JavaWeb2MVCDemo false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.181
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.193
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.210
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE MultiThreading false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.220
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.237
+!MESSAGE classpath=25 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.261
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE inventory-management-system false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.266
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.280
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.293
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE spring-core-demo-annot false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.296
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.307
+!MESSAGE classpath=30 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.334
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE spring-core-demo-xml false 30
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.338
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.391
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.438
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE spring-web-mvc-boot-demo false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.447
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.506
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.561
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE spring-web-mvc-boot-demo2 false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.566
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.594
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.609
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE spring-web-mvc-demo1 false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.612
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.637
+!MESSAGE classpath=37 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.668
+!MESSAGE buffering callback sts4.classpath.YyCKOVnE testing-demo false 37
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.676
+!MESSAGE executing callback sts4.classpath.YyCKOVnE 13 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:40:58.895
+!MESSAGE executing callback sts4.classpath.YyCKOVnE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:48:39.338
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YyCKOVnE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:48:39.350
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YyCKOVnE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:48:39.361
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 10:48:39.365
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YyCKOVnE => OK

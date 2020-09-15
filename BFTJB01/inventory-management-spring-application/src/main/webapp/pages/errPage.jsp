@@ -7,7 +7,7 @@
 <title>Error</title>
 </head>
 <body>
-	<jsp:include page="header" />
+	<jsp:include page="/header" />
 	<h3>Error: ${errMsg }</h3>
 	<p>We regret the inconvinince , 
 	please report it to the admin, if problem persists.</p>
