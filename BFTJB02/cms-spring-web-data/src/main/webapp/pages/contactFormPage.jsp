@@ -34,6 +34,17 @@
 			<form:input type="date" path="dateOfBirth"/>
 			<form:errors path="dateOfBirth"/>
 		</div>
+		<div>
+			<form:label path="married">I am Married</form:label>
+			<form:checkbox path="married"/>
+			<form:errors path="married"/>
+		</div>
+		<div>
+			<form:label path="group">Group</form:label>
+			<form:select path="group" items="${allGroups }"/>
+			<form:errors path="group"/>
+		</div>
+		
 		<button>SAVE</button>
 	</form:form>
 </body>

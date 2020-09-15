@@ -20,6 +20,8 @@
 					<th>Full Name</th>
 					<th>Date Of Birth</th>
 					<th>Mobile</th>
+					<th>Group</th>
+					<th>Married?</th>
 					<th>Action</th>
 				</tr>
 				<c:forEach items="${contacts }" var="contact">
@@ -28,6 +30,8 @@
 						<td>${contact.fullName }</td>
 						<td>${contact.dateOfBirth }</td>
 						<td>${contact.mobile }</td>
+						<td>${contact.group }</td>
+						<td>${contact.married }</td>
 						<td>
 							<a href="deleteContact?cid=${contact.contactId }">DELETE</a>
 							<span>|</span>

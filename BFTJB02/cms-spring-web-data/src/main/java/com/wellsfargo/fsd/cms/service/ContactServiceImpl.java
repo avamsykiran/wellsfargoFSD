@@ -24,6 +24,10 @@ public class ContactServiceImpl implements ContactService {
 			if (contactRepo.existsById(contact.getContactId())) {
 				throw new ContactException("Contact Id is already in use");
 			}
+			
+			if (contactRepo.existsByMobile(contact.getMobile())) {
+				throw new ContactException("Mobile is already in use");
+			}
 
 			contactRepo.save(contact);
 		}

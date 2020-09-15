@@ -42,6 +42,12 @@ public class Contact {
 	@Pattern(regexp = "[1-9][0-9]{9}",message = "Mobile Number should be of 10 digits only")
 	private String mobile;
 	
+	@Column(name="grp")		
+	private String group;
+	
+	@Column(name="married")
+	private Boolean married;
+	
 	public Contact() {
 		//left unimplemented.
 	}
@@ -72,6 +78,22 @@ public class Contact {
 
 	public LocalDate getDateOfBirth() {
 		return dateOfBirth;
+	}
+
+	public String getGroup() {
+		return group;
+	}
+
+	public void setGroup(String group) {
+		this.group = group;
+	}
+
+	public Boolean getMarried() {
+		return married;
+	}
+
+	public void setMarried(Boolean married) {
+		this.married = married;
 	}
 
 	public void setDateOfBirth(LocalDate dateOfBirth) {
