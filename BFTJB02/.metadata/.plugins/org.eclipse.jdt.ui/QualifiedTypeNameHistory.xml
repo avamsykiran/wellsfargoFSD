@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-<fullyQualifiedTypeName name="com.wellsfargo.scd.conf.MyConf"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
-<fullyQualifiedTypeName name="org.springframework.web.context.support.AnnotationConfigWebApplicationContext"/>
-<fullyQualifiedTypeName name="com.wellsfargo.swmd.BeanConfig"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletRegistration"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletRegistration.Dynamic"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
-<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.swbd.model.Item"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
@@ -31,10 +17,8 @@
 <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.entity.Contact"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.dao.ContactRepository"/>
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.controller.ContactController"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
@@ -56,8 +40,24 @@
 <fullyQualifiedTypeName name="javax.xml.transform.OutputKeys"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactService"/>
 <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+<fullyQualifiedTypeName name="java.time.Month"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.context.SpringBootTest"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.dao.ContactRepository"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.context.TestConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactService"/>
+<fullyQualifiedTypeName name="com.wellsfargo.fsd.cms.service.ContactServiceImpl"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="org.springframework.test.context.junit.jupiter.SpringJUnitConfig"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
