@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.wells.service.Greeting&apos; to &apos;GreetingServiceEnglishImpl&apos;&#x0D;&#x0A;- Original project: &apos;Java8Features&apos;&#x0D;&#x0A;- Original element: &apos;com.wells.service.Greeting&apos;&#x0D;&#x0A;- Renamed element: &apos;com.wells.service.GreetingServiceEnglishImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Greeting&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.wells.service{Greeting.java[Greeting" matchStrategy="1" name="GreetingServiceEnglishImpl" qualified="false" references="true" similarDeclarations="false" stamp="1595916354861" textual="false" version="1.0"/>
-</session>

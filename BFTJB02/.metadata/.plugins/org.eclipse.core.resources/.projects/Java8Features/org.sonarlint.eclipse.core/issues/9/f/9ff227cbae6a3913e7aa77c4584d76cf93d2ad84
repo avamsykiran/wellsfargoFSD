@@ -1,21 +1,0 @@
-
-j	java:S106"9Replace this use of System.out or System.err by a logger.(à…ÒÂ8ì×½¡¹.H#RMAJORZ
-CODE_SMELL
-Z
-java:S1604"(Make this anonymous inner class a lambda(ØäÌ8ì×½¡¹.H$RMAJORZ
-CODE_SMELL
-o	java:S106"9Replace this use of System.out or System.err by a logger.(ş«×íşÿÿÿÿ8ì×½¡¹.H"RMAJORZ
-CODE_SMELL
-€
-java:S1192"FDefine a constant instead of duplicating this literal "Vamsy" 4 times.(ş«×íşÿÿÿÿ8ò©Ú¡¹.H%RCRITICALZ
-CODE_SMELL
-h
-java:S1611"1Remove the parentheses around the "unm" parameter(®ˆ•«øÿÿÿÿ8ò©Ú¡¹.H&RMINORZ
-CODE_SMELL
-o	java:S106"9Replace this use of System.out or System.err by a logger.(¤‹¿Êÿÿÿÿÿ8ò©Ú¡¹.H'RMAJORZ
-CODE_SMELL
-h
-java:S1611"1Remove the parentheses around the "unm" parameter(õ‚ˆÇùÿÿÿÿ8ò©Ú¡¹.H(RMINORZ
-CODE_SMELL
-j	java:S106&"9Replace this use of System.out or System.err by a logger.(ùë—8ò©Ú¡¹.H)RMAJORZ
-CODE_SMELL
