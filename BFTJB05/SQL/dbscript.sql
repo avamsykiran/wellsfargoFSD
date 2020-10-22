@@ -14,8 +14,9 @@ CREATE TABLE items (
     iname varchar(50) not null,
     unit  varchar(15) not null check(unit in ('KG','LTR','PIECE','PACK')),
     price decimal(10,2) not null, 
-    cat_id int not null references categories(cat_id),
-    check(price>=0)
+    cat_id int not null,
+    check(price>=0),
+    CONSTRAINT CAT_ITEMS_FK FOREIGN KEY (cat_id) references categories(cat_id)
 );
 
 desc categories;
