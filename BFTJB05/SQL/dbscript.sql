@@ -52,6 +52,14 @@ values
 insert into categories(cat_id,cat_name)
 values(107,'Computers');
 
+insert into items VALUES 
+        (201,'Horlicks','PACK',250.0,104),
+        (202,'Viva','PACK',250.0,104),
+        (203,'Rice 25Kg Bag','PACK',1250.0,101),
+        (204,'Wheat 25Kg Bag','PACK',2150.0,101),
+        (205,'Barley 5Kg Bag','PACK',550.0,101);
+        
+
 select * from categories;
 
 update categories
