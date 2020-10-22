@@ -37,7 +37,8 @@ create table Students(
     stNum   int primary key,
     sName   varchar(50) not null,
     mobile  char(10)    unique,
-    crId    int         references Courses(crId)
+    crId    int ,
+    constraint cr_stud_fk foreign key(crid) references Courses(crId)
 );
 
 INSERT INTO Courses
@@ -59,7 +60,7 @@ Values
         (203,'Sagar','9948016004',101),
         (204,'Srinu','9052224753',102),
         (205,'Venky','9090909098',102),
-        (206,'Indhikaa',null,103);
+        (206,'Indhikaa',null,104);
 
 SELECT * FROM Courses;
 SELECT * FROM Students;        
