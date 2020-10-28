@@ -40,7 +40,6 @@ public class AddressBookApplication {
 			default:System.out.println("Unknown Choice!"); break;
 			}
 		}
-
 	}
 
 	static void doAdd() {
