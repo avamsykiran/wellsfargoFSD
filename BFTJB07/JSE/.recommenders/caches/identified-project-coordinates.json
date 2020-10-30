@@ -1,1 +1,1 @@
-[[{"location":"F:\\softwares\\apache-tomcat-8.5.57-windows-x64\\apache-tomcat-8.5.57\\lib\\servlet-api.jar","type":"JAR","hints":{}},"ABSENT"],[{"location":"C:\\Program Files\\Java\\jre1.8.0_60","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"F:\\IIHT\\Wellsfargo\\BFTJB07\\JSE\\FirstMvcApp","type":"PROJECT","hints":{"PROJECT_NAME":"FirstMvcApp"}},"com.wellsfargo.batch7:first-mvc-app:0.0.1"]]
+[[{"location":"C:\\Program Files\\Java\\jre1.8.0_60","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]

@@ -6,11 +6,11 @@
 	</head>
 	<body>
 		<h3><%=LocalDate.now() %></h3>
-		<h1>First MVC App</h1>
+		<h1><%=application.getInitParameter("webAppTitle") %></h1>
 		<jsp:include page="menu.jsp"/>
 		
 		<h2>Simple Interest</h2>
-		
+		<%-- 
 		<% Loan loan = (Loan) request.getAttribute("loan"); %>
 		
 		<table>
@@ -28,6 +28,23 @@
 				<td><em><%=loan.getInterest() %></em></td></tr>
 			<tr><td><strong>Payable Amount</strong></td>
 				<td><em><%=loan.getPayableAmount() %></em></td></tr>
+		</table> --%>
+				
+		<table>
+			<tr><td><strong>Loan Amount</strong></td>
+				<td><em>${loan.loanAmount}</em></td></tr>
+			<tr><td><strong>Rate Of Interest %</strong></td>
+				<td><em>${loan.rate}</em></td></tr>
+			<tr><td><strong>Disbursement Date</strong></td>
+				<td><em>${loan.disbursementDate}</em></td></tr>
+			<tr><td><strong>Due Date</strong></td>
+				<td><em>${loan.dueDate}</em></td></tr>
+			<tr><td><strong>Time</strong></td>
+				<td><em>${loan.timeInYears} yrs</em></td></tr>
+			<tr><td><strong>Interest</strong></td>
+				<td><em>${loan.interest}</em></td></tr>
+			<tr><td><strong>Payable Amount</strong></td>
+				<td><em>${loan.payableAmount}</em></td></tr>
 		</table>
 		
 	</body>

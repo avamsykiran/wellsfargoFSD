@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h3><%=LocalDate.now() %></h3>
-		<h1>First MVC App</h1>
+		<h1><%=application.getInitParameter("webAppTitle") %></h1>
 		<jsp:include page="menu.jsp"/>
 		
 		<h2>Welcome</h2>
