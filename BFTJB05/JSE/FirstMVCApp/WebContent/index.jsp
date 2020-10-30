@@ -10,5 +10,7 @@
 		
 		<h2>Welcome</h2>
 		<p>Hai all welcome home!</p>
+				
+		<h2><%=application.getInitParameter("dbUrl")%></h2> 
 	</body>
 </html>

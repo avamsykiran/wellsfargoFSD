@@ -1,0 +1,48 @@
+package com.wellsfargo.batch5.fmvc.controller;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+@WebServlet("/friends/*")
+public class FriendsController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+      
+  
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		HttpSession session = request.getSession();
+		session.setMaxInactiveInterval(30*60);
+		
+		List<String> friends = (List<String>)session.getAttribute("friends");
+		
+		if(friends==null) {
+			friends = new ArrayList<String>();
+		}
+		
+		String fnm = request.getParameter("fnm");
+		
+		if(fnm!=null) {
+			friends.add(fnm);			
+		}
+		
+		//request.setAttribute("friends", friends);
+		session.setAttribute("friends", friends);
+		request.getRequestDispatcher("/friends_page.jsp").forward(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

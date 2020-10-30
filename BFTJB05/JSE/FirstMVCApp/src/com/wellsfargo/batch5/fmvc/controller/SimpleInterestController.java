@@ -5,6 +5,7 @@ import java.time.LocalDate;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,7 +15,7 @@ import com.wellsfargo.batch5.fmvc.model.Loan;
 import com.wellsfargo.batch5.fmvc.service.ILoanService;
 import com.wellsfargo.batch5.fmvc.service.LoanServiceImpl;
 
-@WebServlet("/si")
+@WebServlet(value="/si",initParams= {@WebInitParam(name="param1",value="v1")})
 public class SimpleInterestController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
