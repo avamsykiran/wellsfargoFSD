@@ -32,9 +32,9 @@
 								<td>${b.price }</td>
 								<td>${b.publishDate }</td>
 								<td>
-									<a href="editBook?bocde=${b.bookCode }">EDIT</a>
+									<a href="editBook?bcode=${b.bookCode }">EDIT</a>
 									<span>|</span>
-									<a href="deleteBook?bocde=${b.bookCode }">DELETE</a>
+									<a href="deleteBook?bcode=${b.bookCode }">DELETE</a>
 								</td>
 							</tr>
 						</c:forEach>

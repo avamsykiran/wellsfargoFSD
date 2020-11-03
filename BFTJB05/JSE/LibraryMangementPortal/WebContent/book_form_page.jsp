@@ -13,8 +13,8 @@
 		<form action="${isNew?'addBook':'saveBook'}" method="POST">
 			<div>
 				<label>Book Code</label>
-				<input type="number" name="bcode" required 
-				value="${book.bcode}" ${isNew?'':'readonly' }/>
+				<input type="number" name="bookCode" required 
+				value="${book.bookCode}" ${isNew?'':'readonly' }/>
 			</div>
 			<div>
 				<label>Title</label>

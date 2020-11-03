@@ -66,7 +66,7 @@ public class BookController extends HttpServlet {
 
 	private String doAddBook(HttpServletRequest request, HttpServletResponse response) {
 		Book book = new Book();
-		book.setBookCode(Integer.parseInt(request.getParameter("bcode")));
+		book.setBookCode(Integer.parseInt(request.getParameter("bookCode")));
 		book.setTitle(request.getParameter("title"));
 		book.setCategory(request.getParameter("category"));
 		book.setPrice(Double.parseDouble(request.getParameter("price")));
@@ -88,7 +88,7 @@ public class BookController extends HttpServlet {
 
 	private String doSaveBook(HttpServletRequest request, HttpServletResponse response) {
 		Book book = new Book();
-		book.setBookCode(Integer.parseInt(request.getParameter("bcode")));
+		book.setBookCode(Integer.parseInt(request.getParameter("bookCode")));
 		book.setTitle(request.getParameter("title"));
 		book.setCategory(request.getParameter("category"));
 		book.setPrice(Double.parseDouble(request.getParameter("price")));

@@ -19,4 +19,14 @@ INSERT INTO contacts VALUES
  (104,'Venky','WORK','1985-09-11','9052224757'),
  (105,'Indu','FAMILY','1986-06-11','9052224758');
 
+ 
+ CREATE TABLE adb_users(
+ 	user_name varchar(20) primary key,
+ 	password varchar(20) not null,
+ 	role varchar(10) not null
+ ); 
+ 
+ INSERT INTO adb_users VALUES
+ 	('admin','admin','ADMIN');
+ 
  commit;

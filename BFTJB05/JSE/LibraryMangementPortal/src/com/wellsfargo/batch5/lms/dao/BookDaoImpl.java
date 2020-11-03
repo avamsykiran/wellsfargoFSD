@@ -20,7 +20,7 @@ public class BookDaoImpl implements IBookDao {
 	public static final String INS_QRY=
 			"INSERT INTO books(b_code,title,price,publish_data,category) VALUES(?,?,?,?,?)";
 	public static final String UPD_QRY=
-			"UPDATE TABLE books SET title=?,price=?,publish_data=?,category=? WHERE b_code=?";
+			"UPDATE books SET title=?,price=?,publish_data=?,category=? WHERE b_code=?";
 	public static final String DEL_QRY=
 			"DELETE FROM books WHERE b_code=?";
 	public static final String SELECT_ALL_QRY=
