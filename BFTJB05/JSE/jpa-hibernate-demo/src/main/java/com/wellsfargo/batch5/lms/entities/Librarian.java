@@ -1,7 +1,10 @@
 package com.wellsfargo.batch5.lms.entities;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -14,6 +17,10 @@ public class Librarian extends LibraryUser{
 	
 	@Column(name="sal")
 	private Double salary;
+	
+	@OneToOne(cascade=CascadeType.ALL)
+	@JoinColumn(name="acno")
+	private BankAccount salAccount;
 	
 	public Librarian() {
 		
@@ -44,6 +51,14 @@ public class Librarian extends LibraryUser{
 	@Override
 	public String toString() {
 		return "Librarian [name=" + name + ", salary=" + salary + "]";
+	}
+
+	public BankAccount getSalAccount() {
+		return salAccount;
+	}
+
+	public void setSalAccount(BankAccount salAccount) {
+		this.salAccount = salAccount;
 	}
 	
 	

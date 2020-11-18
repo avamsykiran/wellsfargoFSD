@@ -2,6 +2,7 @@ package com.wellsfargo.batch5.lms.entities;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -15,6 +16,9 @@ public class LibraryMember extends LibraryUser{
 	
 	@Column(name="lnm")
 	private String lastName;
+	
+	@Embedded
+	private ContactDetails address;
 	
 	public LibraryMember() {
 		
@@ -40,6 +44,14 @@ public class LibraryMember extends LibraryUser{
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public ContactDetails getAddress() {
+		return address;
+	}
+
+	public void setAddress(ContactDetails address) {
+		this.address = address;
 	}
 	
 	

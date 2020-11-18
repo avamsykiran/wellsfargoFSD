@@ -1,8 +1,12 @@
 package com.wellsfargo.batch5.lms.entities;
 
+import java.util.Set;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -15,6 +19,9 @@ public class Genre {
 	
 	@Column(name="genre_name",nullable=false)
 	private String genreName;
+	
+	@OneToMany(mappedBy="genere",cascade=CascadeType.ALL)
+	private Set<Book> books;
 	
 	public Genre() {
 		
@@ -47,4 +54,13 @@ public class Genre {
 		return "Genre [genreId=" + genreId + ", genreName=" + genreName + "]";
 	}
 
+	public Set<Book> getBooks() {
+		return books;
+	}
+
+	public void setBooks(Set<Book> books) {
+		this.books = books;
+	}
+
+	
 }
