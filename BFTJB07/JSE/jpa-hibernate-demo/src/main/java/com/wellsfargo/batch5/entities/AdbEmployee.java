@@ -1,8 +1,9 @@
 package com.wellsfargo.batch5.entities;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -15,6 +16,9 @@ public class AdbEmployee extends AdbUser {
 	
 	@Column(name="emp_basic")
 	private Double basic;
+	
+	@OneToOne(mappedBy="accountHolder",cascade=CascadeType.ALL)
+	private BankAccount salAccount;
 	
 	public AdbEmployee() {
 		
@@ -40,6 +44,14 @@ public class AdbEmployee extends AdbUser {
 
 	public void setBasic(Double basic) {
 		this.basic = basic;
+	}
+
+	public BankAccount getSalAccount() {
+		return salAccount;
+	}
+
+	public void setSalAccount(BankAccount salAccount) {
+		this.salAccount = salAccount;
 	}
 	
 	

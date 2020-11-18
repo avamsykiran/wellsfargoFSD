@@ -1,8 +1,12 @@
 package com.wellsfargo.batch5.entities;
 
+import java.util.Set;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -15,6 +19,9 @@ public class AddressGroup {
 	
 	@Column(name="grp_title",nullable=false,unique=true)
 	private String groupTitle;
+	
+	@OneToMany(mappedBy="adbGroup",cascade=CascadeType.ALL)
+	private Set<Contact> contacts;
 
 	public AddressGroup() {
 		
@@ -40,6 +47,14 @@ public class AddressGroup {
 
 	public void setGroupTitle(String groupTitle) {
 		this.groupTitle = groupTitle;
+	}
+
+	public Set<Contact> getContacts() {
+		return contacts;
+	}
+
+	public void setContacts(Set<Contact> contacts) {
+		this.contacts = contacts;
 	}
 	
 	

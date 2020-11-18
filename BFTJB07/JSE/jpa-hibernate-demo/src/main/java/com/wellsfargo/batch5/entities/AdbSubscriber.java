@@ -1,7 +1,7 @@
 package com.wellsfargo.batch5.entities;
 
 import javax.persistence.Column;
-import javax.persistence.DiscriminatorValue;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -15,6 +15,9 @@ public class AdbSubscriber extends AdbUser{
 	
 	@Column(name="lnm")
 	private String last_name;
+	
+	@Embedded
+	private ContactDetails subscriberContactDetails;
 	
 	public AdbSubscriber() {
 		
@@ -40,6 +43,20 @@ public class AdbSubscriber extends AdbUser{
 
 	public void setLast_name(String last_name) {
 		this.last_name = last_name;
+	}
+
+	public ContactDetails getSubscriberContactDetails() {
+		return subscriberContactDetails;
+	}
+
+	public void setSubscriberContactDetails(ContactDetails subscriberContactDetails) {
+		this.subscriberContactDetails = subscriberContactDetails;
+	}
+
+	@Override
+	public String toString() {
+		return "AdbSubscriber [first_name=" + first_name + ", last_name=" + last_name + ", subscriberContactDetails="
+				+ subscriberContactDetails + "]";
 	}
 	
 	
