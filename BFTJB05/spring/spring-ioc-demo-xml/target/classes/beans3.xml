@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="greetNoteProvider" 
+		class="com.wellsfargo.batch5.iocdemo.serivce.GreetNoteProviderTimeBasedImpl" />
+	
+	<bean id="gnps" 
+		class="com.wellsfargo.batch5.iocdemo.serivce.GreetNoteProviderStandardImpl" />
+	
+	<bean id="gsadvBean" 
+	    class="com.wellsfargo.batch5.iocdemo.serivce.GreetServiceAdvancedImpl" 
+	    autowire="byName"/>
+		
+</beans>

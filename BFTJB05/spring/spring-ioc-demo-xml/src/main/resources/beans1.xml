@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="gsBean" 
+		class="com.wellsfargo.batch5.iocdemo.serivce.GreetServiceImpl" />
+	
+	<bean id="gsaBean" 
+	    class="com.wellsfargo.batch5.iocdemo.serivce.GreetServiceArgumentedImpl" >
+		<property name="greetNote" value="Namasthey" />
+	</bean>
+	
+	<bean id="gsaBean2" 
+	    class="com.wellsfargo.batch5.iocdemo.serivce.GreetServiceArgumentedImpl" >
+		<constructor-arg index="0" value="Vanakkam"/>
+	</bean>
+	
+	<bean id="gnps" 
+		class="com.wellsfargo.batch5.iocdemo.serivce.GreetNoteProviderStandardImpl" />
+	
+	<bean id="gnptb" 
+		class="com.wellsfargo.batch5.iocdemo.serivce.GreetNoteProviderTimeBasedImpl" />
+	
+	<bean id="gsadvBean" 
+	    class="com.wellsfargo.batch5.iocdemo.serivce.GreetServiceAdvancedImpl" >
+		<!-- <property name="greetNoteProvider" ref="gnps" /> -->
+		<property name="greetNoteProvider" ref="gnptb" />
+	</bean>
+	
+</beans>
