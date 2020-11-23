@@ -1,0 +1,38 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	padding:15px;
+	background-color:#afacaf;	
+}
+
+header{
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	padding:13px;
+	background-color:#00ab00;
+	text-align:center;
+}
+nav{
+	padding:10px;
+	background-color:#ccabcc;
+}
+nav a{
+	padding:8px;
+	background-color:#00ab00;
+	display:inline-block;
+	margin-right:4px;
+	text-decoration:none;
+	font-weight:bolder;
+}
+section{
+	padding:15px;
+	background-color:#ffffff;
+	min-height:250px;
+}
+
+table,tr,td{
+	padding:10px;
+}
