@@ -16,8 +16,6 @@ public class AddressGroupModel {
 	@Size(min=4,max=50,message="Group Title must be 4 to 50 chars in length")
 	private String groupTitle;
 	
-	private Set<ContactModel> contacts;
-
 	public AddressGroupModel() {
 		
 	}
@@ -43,14 +41,5 @@ public class AddressGroupModel {
 	public void setGroupTitle(String groupTitle) {
 		this.groupTitle = groupTitle;
 	}
-
-	public Set<ContactModel> getContacts() {
-		return contacts;
-	}
-
-	public void setContacts(Set<ContactModel> contacts) {
-		this.contacts = contacts;
-	}
-	
 	
 }
