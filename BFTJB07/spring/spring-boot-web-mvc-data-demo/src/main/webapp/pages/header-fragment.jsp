@@ -7,5 +7,11 @@
      <li class="nav-item ">
       <a class="nav-link" href="/groups">Groups</a>
     </li>    
+    <li class="nav-item ">
+      <a class="nav-link" href="/contacts">Contacts</a>
+    </li>    
+    <li class="nav-item ">
+      <a class="nav-link" href="/contacts/new">New Contacts</a>
+    </li>    
   </ul>
 </nav>
