@@ -17,6 +17,7 @@ public class EMParser {
 		target.setPrice(source.getPrice());
 		target.setPublishDate(source.getPublishDate());
 		target.setTitle(source.getTitle());
+		target.setGenere(parse(source.getGenere()));
 				
 		return target;
 	}
@@ -37,7 +38,8 @@ public class EMParser {
 		target.setPrice(source.getPrice());
 		target.setPublishDate(source.getPublishDate());
 		target.setTitle(source.getTitle());
-				
+		target.setGenere(parse(source.getGenere()));
+		
 		return target;
 	}
 	

@@ -1,5 +1,4 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
-<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
 	<head>
 		<title>LMP-Genres</title>
@@ -12,52 +11,42 @@
 		<jsp:include page="/header"/>
 		<section class="container-fluid p-4">
 			
-			<h3>Genres</h3>
-			
-			<div class="mb-4">
-				<form:form class="form-inline" 
-					action="/genres/add" method="POST" modelAttribute="genre">
-					
-					<div class="alert alert-danger">
-							<form:errors path="*"></form:errors>
-					</div>
-					
-					<form:input type="number" path="genreId" 
-						class="form-control mr-4" placeholder="Genre Id"/>
-					<form:input type="text" path="genreName" 
-						class="form-control mr-4" placeholder="Genre Name"/>
-					<button class="btn btn-sm btn-primary">ADD</button>					
-				</form:form>
-			</div>
-			
+			<h3>Books</h3>
+						
 			<c:choose>
-				<c:when test="${genres==null || genres.isEmpty() }">
+				<c:when test="${books==null || books.isEmpty() }">
 					<div class="alert alert-info">
-						<p>No Genres Found!
+						<p>No Book Records Available!
 					</div>
 				</c:when>
 				<c:otherwise>
 					<table class="table table-bordered table-striped">
 						<thead>
 							<tr>
-								<th>Genre#</th>
+								<th>Book Code</th>
+								<th>Title</th>
 								<th>Genre</th>
+								<th>Price</th>
+								<th>Publish Date
 								<th colspan="2"></th>
 							</tr>							
 						</thead>
 						<tbody>
-							<c:forEach var="g" items="${genres }">
+							<c:forEach var="b" items="${books }">
 								<tr>
-									<td>${g.genreId }</td>
-									<td>${g.genreName }</td>
+									<td>${b.bookCode }</td>
+									<td>${b.title }</td>
+									<td>${b.genere.genreName }</td>
+									<td>${b.price }</td>
+									<td>${b.publishDate }</td>
 									<td>
-										<a href="/genres/delete?gid=${g.genreId }" class="btn btn-sm btn-danger">
-											DELETE
+										<a href="/books/edit?bid=${b.bookCode }" class="btn btn-sm btn-info">
+											EDIT
 										</a>
 									</td>
 									<td>
-										<a href="/books/byGenre?gid=${g.genreId }" class="btn btn-sm btn-info">
-											BOOKS
+										<a href="/books/delete?bid=${b.bookCode }" class="btn btn-sm btn-danger">
+											DELETE
 										</a>
 									</td>
 								</tr>
