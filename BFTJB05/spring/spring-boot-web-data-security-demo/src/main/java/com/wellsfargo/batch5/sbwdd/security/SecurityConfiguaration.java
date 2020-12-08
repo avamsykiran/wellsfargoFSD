@@ -42,7 +42,7 @@ public class SecurityConfiguaration extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 
 		http.authorizeRequests()
-		.antMatchers("/books/","/books/byGenre/","/genres/").hasAuthority("MEMBER")
+		.antMatchers("/books","/genres").hasAnyAuthority("MEMBER","LIBRARIAN")
 		.antMatchers("/books/**","/genres/**").hasAuthority("LIBRARIAN");
 		
 
