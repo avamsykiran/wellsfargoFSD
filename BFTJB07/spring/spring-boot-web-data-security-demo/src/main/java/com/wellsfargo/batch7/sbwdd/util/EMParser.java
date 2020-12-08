@@ -75,8 +75,8 @@ public class EMParser {
 
 		target.setUserId(null);
 		target.setUserName(source.getUserName());
-		target.setFirst_name(source.getFirst_name());
-		target.setLast_name(source.getLast_name());
+		target.setFirstName(source.getFirstName());
+		target.setLastName(source.getLastName());
 		target.setRole("SUBSCRIBER");
 		target.setPassword(source.getPassword());
 		target.setSubscriberContactDetails(parse(source.getSubscriberContactDetails()));
@@ -89,8 +89,8 @@ public class EMParser {
 
 		target.setUserId(source.getUserId());
 		target.setUserName(source.getUserName());
-		target.setFirst_name(source.getFirst_name());
-		target.setLast_name(source.getLast_name());
+		target.setFirstName(source.getFirstName());
+		target.setLastName(source.getLastName());
 		target.setSubscriberContactDetails(parse(source.getSubscriberContactDetails()));
 
 		return target;
