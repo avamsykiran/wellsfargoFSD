@@ -4,9 +4,12 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import com.wellsfargo.batch5.sbwdd.entity.BookEntity;
+import com.wellsfargo.batch5.sbwdd.entity.ContactDetails;
 import com.wellsfargo.batch5.sbwdd.entity.GenreEntity;
+import com.wellsfargo.batch5.sbwdd.entity.LibraryMember;
 import com.wellsfargo.batch5.sbwdd.model.BookModel;
 import com.wellsfargo.batch5.sbwdd.model.GenreModel;
+import com.wellsfargo.batch5.sbwdd.model.RegisterLibraryMemberModel;
 
 public class EMParser {
 	
@@ -49,6 +52,20 @@ public class EMParser {
 		target.setGenreId(source.getGenreId());
 		target.setGenreName(source.getGenreName());
 			
+		return target;
+	}
+	public static LibraryMember parse(RegisterLibraryMemberModel source) {
+		LibraryMember target = new LibraryMember();
+		
+		target.setFirstName(source.getFirstName());
+		target.setLastName(source.getLastName());
+		target.setAddress(
+				new ContactDetails(source.getMobileNumber(), 
+						source.getAddressLine1(), source.getAddressLine2(), source.getCity()));
+		target.setPassword(source.getPassword());
+		target.setRole("MEMBER");
+		target.setUserName(source.getUserName());
+		
 		return target;
 	}
 
